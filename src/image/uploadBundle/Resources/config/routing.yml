@@ -1,0 +1,7 @@
+imageupload_homepage:
+    pattern:  /index
+    defaults: { _controller: imageuploadBundle:Default:index }
+
+imageupload_upload:
+    pattern:  /upload
+    defaults: { _controller: imageuploadBundle:Default:upload }
